@@ -1,0 +1,311 @@
+#blogContent {
+    width: 100%;
+}
+
+.blogPost {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.postStuff {
+    padding: 3% 4%;
+    padding-bottom: 0;
+    border-bottom: solid 1px lightgray;
+    padding-top: 0;
+}
+
+.postTitle {
+    width: 100%;
+    text-align: left;
+    display: block;
+    font-size: 40px;
+    color: black;
+}
+
+.postDate {
+    width: 100%;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    border-bottom: solid 1px lightgrey;
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.postContent {
+    width: 100%;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    padding: 25px 0 !important;
+    color: black;
+    margin: 0;
+}
+
+.postContent img {
+    max-width: 100%;
+}
+
+.postImage {
+    max-width: 100%;
+    border: solid 1px darkgrey;
+    margin-top: 40px;
+}
+
+.commentDiv {
+    padding: 3%;
+    background: whitesmoke;
+    position: relative;
+    border: solid 1px lightgrey;
+    border-top: none;
+}
+
+.viewMoreComments {
+    display: block;
+    width: auto;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+}
+
+.commentHeader {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.commentSection {
+    resize: none;
+    padding: 5px;
+    height: 50px;
+    text-align: left;
+    margin-top: 5px;
+    width: 100%;
+    width: 80%;
+    margin-left: 2%;
+    border: solid 1px lightgrey;
+    display: inline-block;
+}
+
+.commentButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 2%;
+    width: 14%;
+    float: right;
+    height: 50px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.commentUser {
+    font-weight: bold;
+}
+
+.commentText {
+    padding: 0 !important;
+    width: 96%;
+    margin-left: 2%;
+    color: black;
+}
+
+.commentDate {
+    display: block;
+    font-size: 11px;
+    color: gray;
+}
+
+.nextButtonBlog {
+    float: initial;
+    width: auto;
+}
+
+.postContent h3 {
+    font-size: 30px;
+}
+
+.postContent h2 {
+    font-size: 60px;
+}
+
+.postContent h1 {
+    font-size: 90px;
+}
+
+.postContent p {
+    padding: 0;
+}
+
+.ql-align-right {
+    text-align: right;
+}
+
+.ql-align-left {
+    text-align: left;
+}
+
+.ql-align-center {
+    text-align: center;
+}
+
+.ql-align-justify {
+    text-align: justify;
+}
+
+.postContent pre.ql-syntax {
+    background-color: #23241f;
+    color: #f8f8f2;
+    overflow: visible;
+    white-space: pre-wrap;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.postContent blockquote {
+    border-left: 4px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 16px;
+}
+
+.ql-editor .ql-indent-1:not(.ql-direction-rtl) {
+    margin-left: 3em;
+}
+
+.ql-editor .ql-indent-2:not(.ql-direction-rtl) {
+    margin-left: 6em;
+}
+
+.ql-editor .ql-indent-3:not(.ql-direction-rtl) {
+    margin-left: 9em;
+}
+
+.ql-editor .ql-indent-4:not(.ql-direction-rtl) {
+    margin-left: 12em;
+}
+
+.ql-editor .ql-indent-5:not(.ql-direction-rtl) {
+    margin-left: 15em;
+}
+
+.ql-editor .ql-indent-6:not(.ql-direction-rtl) {
+    margin-left: 18em;
+}
+
+.ql-editor .ql-indent-7:not(.ql-direction-rtl) {
+    margin-left: 21em;
+}
+
+.ql-editor .ql-indent-8:not(.ql-direction-rtl) {
+    margin-left: 24em;
+}
+
+.ql-editor .ql-indent-9:not(.ql-direction-rtl) {
+    margin-left: 27em;
+}
+
+.ql-editor .ql-indent-10:not(.ql-direction-rtl) {
+    margin-left: 30em;
+}
+
+#blogOverlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    z-index: 1040;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.closeBlog {
+    font-size: 40px;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
+
+.postDivInner {
+    background: url('https://heyleia.com/images/blog-default.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.postDiv {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    min-height: 250px;
+}
+
+.postDivInner:hover {
+    box-shadow: #cccccc 0px 0px 15px 5px;
+}
+
+.postDiv h3 {
+    font-size: 32px;
+    background: rgba(0,0,0,0.2);
+}
+
+.postDivImage {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .commentButton {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:414px){
+    .blogPost {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .postDiv {
+        width: 100%;
+    }
+    
+    .commentSection {
+        width: 96%;
+    }
+    
+    .commentButton {
+        float: initial;
+        display: block;
+        margin-left: 2%;
+        height: auto;
+        width: auto;
+        font-size: 16px;
+        padding: 7px 20px;
+    }
+    
+    .nextButtonBlog {
+        float: initial;
+        width: auto;
+        display: inline-block;
+    }
+}
